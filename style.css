@@ -1,0 +1,180 @@
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+body {
+	font-family: Open Sans;
+	color: white;
+	text-align: center;
+	margin: 20px;
+}
+
+#container {
+  width: 100%;
+  margin: auto;
+/*  height: 500px;*/
+}
+
+/* all containers */
+.section-container {
+	display: inline-block;
+	width: 100%;
+}
+
+#splash {
+	background: url(images/header_bg.jpg) no-repeat top;
+	background-size: 100%;
+	height: 500px;
+	width:100%;
+	color: white;
+}
+
+#splash h1 {
+	font-family: Open Sans;
+	size: 120px;
+	text-align: left;
+	font-style: bold;
+	position: relative;
+	left: 5%;
+	padding-top: 2%;
+	font-weight: 900;
+}
+#splash h2 {
+	position:relative;
+	top: 90px;
+	font-size: 30px;
+
+}
+#splash button {
+	background: #F8E53E;
+	color: #888687;
+	position: relative;
+	top: 130px;
+	width: 150px;
+	font-family: 'Open Sans';
+	font-weight: bold;
+	height: 40px;
+	width: 200px;
+	outline: none;
+}
+
+#benefits {
+	background: #EFEFEF;
+	text-align:left;
+	line-height: 1.4;
+	padding-bottom:30px;
+	color: #888687;
+}
+
+#benefits h2 {
+	color: #384D60;
+	padding-top: 35px;
+	margin-left: 8%;
+}
+
+#benefits p {
+	margin-left: 8%;
+	width: 33%;
+}
+
+#benefits ul {
+	width: 33%;
+	margin-left: 8%;
+}
+#quote {
+	background: url('images/testimonial_bg.jpg');
+	font-size: 18px;
+	font-style: italic;
+	text-align: center;
+	line-height: 1.4;
+	height: 300px;
+	padding-top: 30px;
+}
+
+#quote p {
+	width: 320px;
+	text-align: center;
+	clear: both;
+	margin: 30px auto;
+	font-weight: lighter;
+	word-spacing: 1px;
+	letter-spacing: 0.5px;
+}
+
+#quote h2 {
+	font-style: normal;
+	margin-top: -25px;
+	margin-bottom: 55px;
+	letter-spacing: 0.5px;
+}
+
+#signup {
+	background: #D6C535;
+	clear: both;
+	height: 100px;
+}
+#signup button {
+	background: #233748;
+	color: white;
+	font-family: 'Open Sans';
+	outline: none;
+	position: relative;
+	top: 36%;
+	width: 200px;
+	height: 40px;
+
+}
+
+footer {
+	background: #282828;
+	color: #D6C535;
+	padding-bottom: 100px;
+}
+
+footer h1 {
+	padding-top: 30px;
+	font-weight:900;
+}
+
+footer p {
+	color: white;
+	padding-top: 50px;
+}
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
